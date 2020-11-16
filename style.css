@@ -1,0 +1,87 @@
+@font-face {
+  src: url(fonts/Compagnon-Bold.woff);
+  font-family: Compagnon;
+}
+
+@font-face {
+  src: url(fonts/PanamaRegular.otf);
+  font-family: Panama;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+}
+
+.ab {
+  padding-bottom: 60px;
+}
+.wrapper {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: lighter;
+    font-weight: lighter;
+    font-family: Compagnon;
+}
+
+.outer-frame {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.header-image {
+  padding: 50px;
+  width: 90%;
+}
+
+.body {
+  font-size: 28px;
+  font-family: Panama;
+  font-weight: Regular;
+}
+
+.white-text {
+  color: #FFFFFF;
+}
+
+.black-text {
+  color: #000000;
+}
+
+.centered {
+  text-align: center;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding-bottom: 50px;
+}
+
+.left {
+  width: 70%;
+}
+
+.right {
+  width: 30%;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
