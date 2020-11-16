@@ -68,8 +68,14 @@ h1 {
 
 .column {
   float: left;
-  width: 50%;
+  width: 100%;
   padding-bottom: 50px;
+  padding-left: 20px;
+  word-wrap: break-word;
+}
+
+.columns {
+    display: flex;
 }
 
 .left {
@@ -80,8 +86,11 @@ h1 {
   width: 30%;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   .column {
     width: 100%;
   }
 }
+
+@media (max-width: 1000px) {
+  .columns { display: block } }
