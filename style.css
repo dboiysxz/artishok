@@ -18,11 +18,11 @@ body {
 }
 
 .ab {
-  padding-bottom: 60px;
+  padding: 0 20px 60px 20px;
 }
 .wrapper {
   margin: 0 auto;
-  width: 1000px;
+  max-width: 1000px;
 }
 
 ul {
@@ -69,13 +69,17 @@ h1 {
 .column {
   float: left;
   width: 100%;
-  padding-bottom: 50px;
-  padding-left: 20px;
+  padding: 0 0 7% 20px;
   word-wrap: break-word;
 }
 
 .columns {
     display: flex;
+}
+
+.texts {
+  padding: 0 20px 0 20px;
+  word-wrap: break-word;
 }
 
 .left {
@@ -86,6 +90,20 @@ h1 {
   width: 30%;
 }
 
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+p {
+  line-height: 40px;
+  padding-bottom: 20px;
+}
 @media screen and (max-width: 1000px) {
   .column {
     width: 100%;
