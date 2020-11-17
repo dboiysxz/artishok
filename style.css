@@ -36,6 +36,10 @@ h1 {
     font-family: Compagnon;
 }
 
+.space {
+  padding: 0 0 2vh 0;
+}
+
 .outer-frame {
   display: flex;
   flex-wrap: wrap;
@@ -52,6 +56,10 @@ h1 {
   font-size: 28px;
   font-family: Panama;
   font-weight: Regular;
+}
+
+.container {
+  padding: 50px;
 }
 
 .white-text {
@@ -75,6 +83,7 @@ h1 {
 
 .columns {
     display: flex;
+    line-height: 60px;
 }
 
 .texts {
@@ -92,7 +101,7 @@ h1 {
 
 a {
   color: #FFFFFF;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a:hover {
@@ -104,6 +113,15 @@ p {
   line-height: 40px;
   padding-bottom: 20px;
 }
+
+.tagasi {
+  padding: 5%;
+  position: fixed;
+  font-size: 20px;
+  font-family: Panama;
+  font-weight: Regular;
+}
+
 @media screen and (max-width: 1000px) {
   .column {
     width: 100%;
