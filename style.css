@@ -21,11 +21,18 @@ body {
 .ab {
   padding: 0 20px 60px 20px;
 }
+
 .wrapper {
   margin: 0 auto;
   max-width: 1000px;
   overflow-x: hidden;
   position: relative;
+}
+
+.site-container {
+  width: 100%
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 ul {
