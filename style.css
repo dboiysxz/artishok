@@ -15,6 +15,7 @@
 
 body {
   background-color: rgb(0, 0, 0);
+    overflow-x: hidden;
 }
 
 .ab {
@@ -23,6 +24,8 @@ body {
 .wrapper {
   margin: 0 auto;
   max-width: 1000px;
+  overflow-x: hidden;
+  position: relative;
 }
 
 ul {
