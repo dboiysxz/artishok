@@ -2,22 +2,123 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ann Pajuväli</title>
     <link rel="stylesheet" href="../style.css">
   </head>
+  <nav>
+    <div class="menu">
+          <div class="artist-link">
+              <h2><a href="javascript:;" onclick="toggleArtists()">Kunstnikud</a></h2>
+          </div>
+          <div class="icon-container">
+              <a href="../index.html"><img src="../img/symbol.png" alt="artishok-home" class="icon"></a>
+          </div>
+          <div class="writers-link">
+              <h2><a href="javascript:;" onclick="toggleWriters()">Kirjutajad</a></h2>
+          </div>
+    </div>
+    <div id="artists-menu" class="dropdown-menu">
+        <ul>
+            <li><a href="../kunstnikud/pajuvali.html">Ann Pajuväli (EE)</a></li>
+            <li><a href="../kunstnikud/vaiklakula.html">Ann Mirjam Vaikla (EE) & Szymon Kula (PL/FR)</a></li>
+            <li><a href="../kunstnikud/liivrand.html">Anna Mari Liivrand (EE)</a></li>
+            <li><a href="../kunstnikud/kaselaan.html">Jass Kaselaan (EE)</a></li>
+            <li><a href="../kunstnikud/chicau.html">Joana Chicau (PT/NL)</a></li>
+            <li><a href="../kunstnikud/ulfsak.html">Johanna Ulfsak (EE)</a></li>
+            <li><a href="../kunstnikud/sootrandmae.html">Kaisa Sööt (EE) & Koit Randmäe (EE)</a></li>
+            <li><a href="../kunstnikud/leschelier.html">Marc Leschelier (FR)</a></li>
+            <li><a href="../kunstnikud/ginckels.html">Pieterjan Ginckels (BE)</a></li>
+            <li><a href="../kunstnikud/karro.html">Siim Karro (EE)</a></li>
+      </ul>
+    </div>
+    <div id="writers-menu" class="dropdown-menu">
+        <ul>
+            <li><a href="../kirjutajad/vetik.html">Anne Vetik</a></li>
+            <li><a href="../kirjutajad/kaljo.html">Hanna Laura Kaljo</a></li>
+            <li><a href="../kirjutajad/hoffmann.html">Joanna Hoffmann</a></li>
+            <li><a href="../kirjutajad/kaunissaare.html">Laur Kaunissaare</a></li>
+            <li><a href="../kirjutajad/maasik.html">Magdaleena Maasik</a></li>
+            <li><a href="../kirjutajad/sade.html">Margit Säde</a></li>
+            <li><a href="../kirjutajad/luiga.html">Maria Helena Luiga</a></li>
+            <li><a href="../kirjutajad/esko.html">Marten Esko</a></li>
+            <li><a href="../kirjutajad/k.html">Vitamiin K</a></li>
+            <li><a href="../kirjutajad/draaistel.html">Bogie Draaistel</a></li>
+        </ul>
+      </div>
+  </nav>
   <body>
-    <div class="tagasi">
-        <a href="../index.html">Tagasi</a>
-    </div>
-    <div class="container">
-      <div class="ab body white-text centered">
-        <h1>Ann Pajuväli</h1>
-      </div>
-      <div class="centered body">
-        <a href="../files/EST_AnnPajuväli.pdf" target="_blank">[EST]</a>
-        <a href="../files/ENG_AnnPajuväli.pdf" target="_blank">[ENG]</a>
-        <a href="../files/RUS_AnnPajuväli.pdf" target="_blank">[RUS]</a>
-      </div>
-    </div>
+    <main class="wrapper">
+        <img class="banner" src="../img/pajuvali.png">
+        <div class="inverted">
+            <article class="article">
+                <p>[Kunstniku bio EST] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius ex sedfaucibus consectetur. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque nec estmalesuada, pellentesque erat vel, malesuada enim. Duis sollicitudin sem quam, ac lobortis elit sagittis id.Pellentesque vitae imperdiet purus. Aenean pellentesque massa et neque feugiat ultricies. Morbi mollis necnunc quis faucibus. Quisque ut risus eget massa finibus maximus. Nulla facilisi. Integer pharetra enim at leofacilisis tincidunt.</p>
+            </article>
+            <div class="padder">
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/w15oWDh02K4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="article">
+                <h2>Tekstid</h2>
+                <ul class="inline">
+                    <a href="#vetik">Anne&nbsp;Vetik</a> /
+                    <a href="#kaljo">Hanna&nbsp;Laura&nbsp;Kaljo</a> /
+                    <a href="#hoffmann">Joanna&nbsp;Hoffmann</a> /
+                    <a href="#kaunissaare">Laur&nbsp;Kaunissaare</a> /
+                    <a href="#maasik">Magdaleena&nbsp;Maasik</a> /
+                    <a href="#sade">Margit&nbsp;Säde</a> /
+                    <a href="#luiga">Maria&nbsp;Helena&nbsp;Luiga</a> /
+                    <a href="#esko">Marten&nbsp;Esko</a> /
+                    <a href="#k">Vitamiin&nbsp;K</a> /
+                    <a href="#draaistel">Bogie&nbsp;Draaistel</a>
+                </ul>
+            </div>
+            <div class="arrows">
+                <div class="arrow">
+                    <img src="../img/arrow.png" alt="download-EST" class="arrow-img">
+                    <li><a href="#" class="arrow-text">Kõik tekstid (PDF)</a>
+                    </li>
+                </div>
+                <div class="arrow">
+                    <img src="../img/arrow.png" alt="download-ENG" class="arrow-img">
+                    <li><a href="#">All texts (PDF)</a>
+                </div>
+                <div class="arrow">
+                    <img src="../img/arrow.png" alt="download-RUS" class="arrow-img">
+                    <li><a href="#">Все тексты (PDF)</a>
+                </div>
+            </div>
+            <div class="article">
+                <a name="vetik" class="anchor"></a>
+                <h2>Anne Vetik</h2>
+                <p>[Ann, her facial features reminiscent of a bird, sits in the trolleybus. The trolleybus
+                    makes a trolleybus sound. Ann takes the trolleybus nearly every day. She likes salmon
+                    canapés and people-watching. She moved back to Õismäe half a year ago, because her
+                    great-aunt died. Ann never talked to the aunt but still got the aunt’s apartment. No
+                    one talked to the aunt, mainly because the aunt didn’t want to talk to anyone and she
+                    collected empty margarine tubs. And yoghurt containers. And Ajax cans. The collection
+                    went back to 1991 and took up most of the apartment.</p>
+                    <p>When Ann finally got the keys to the apartment, she undertook a major cleaning.
+                    The waste bins outside the house were nearly full. It turned out the apartment was
+                    spacious and from one window there was a view into the far distance. Only one more
+                    dresser, crammed with packaging, awaits its fate on the balcony. Ann looks at the
+                    dresser. It looks back at Ann. Ann feels she doesn’t actually want to empty the dresser.
+                    But she should. “OK, I’ll do it tomorrow,” Ann says.
+                    Ann dreams confused dreams every night. Sometimes she finds herself by the Õismäe
+                    pond in the middle of the night. In her pocket she has a yoghurt container from the
+                    dresser. She doesn’t know how she wound up there. She doesn’t tell anyone about it,
+                    Every evening, she opens her aunt’s dres.</p>
+            </div>
+            <hr />
+            <div class="article">
+                <a name="draaistel"></a>
+                <h2>Bogie Draaistel</h2>
+                <p>[Bogie tekst] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius ex sed faucibus consectetur. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque nec est malesuada, pellentesque erat vel, malesuada enim. Duis sollicitudin sem quam, ac lobortis elit sagittis id. Pellentesque vitae imperdiet purus. Aenean pellentesque massa et neque feugiat ultricies. Morbi mollis nec nunc quis faucibus. Quisque ut risus eget massa finibus maximus. Nulla facilisi. Integer pharetra enim at leo facilisis tincidunt.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin suscipit ligula ut condimentum. Nulla aliquet, quam sed maximus molestie, sapien nunc congue augue, ac.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius ex sed faucibus consectetur. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque nec est malesuada, pellentesque erat vel, malesuada enim. Duis sollicitudin sem quam, ac lobortis elit sagittis id. Pellentesque vitae imperdiet purus. Aenean pellentesque massa et neque feugiat ultricies. Morbi mollis nec nunc quis faucibus. Quisque ut risus eget massa finibus maximus. Nulla facilisi. Integer pharetra enim at leo facilisis tincidunt.</p>
+            </div>
+        </div>
+    </main>
+    <script src="../js/nav.js"></script>
   </body>
 </html>

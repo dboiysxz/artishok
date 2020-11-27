@@ -1,38 +1,215 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>7. Artishoki biennaal</title>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7. Artishoki biennaal</title>
     <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-      <div class="site-container">
-        <div class="outer-frame">
-          <img class="header-image" src="img/artishok.png" alt="artishok-banner">
+</head>
+<body>
+    <nav>
+      <div class="menu">
+            <div class="artist-link">
+                <h2><a href="javascript:;" onclick="toggleArtists()">Kunstnikud</a></h2>
+            </div>
+            <div class="icon-container">
+                <a href="index.html"><img src="img/symbol.png" alt="artishok-home" class="icon"></a>
+            </div>
+            <div class="writers-link">
+                <h2><a href="javascript:;" onclick="toggleWriters()">Kirjutajad</a></h2>
+            </div>
+      </div>
+      <div id="artists-menu" class="dropdown-menu">
+          <ul>
+              <li><a href="kunstnikud/pajuvali.html">Ann Pajuväli (EE)</a></li>
+              <li><a href="kunstnikud/vaiklakula.html">Ann Mirjam Vaikla (EE) & Szymon Kula (PL/FR)</a></li>
+              <li><a href="kunstnikud/liivrand.html">Anna Mari Liivrand (EE)</a></li>
+              <li><a href="kunstnikud/kaselaan.html">Jass Kaselaan (EE)</a></li>
+              <li><a href="kunstnikud/chicau.html">Joana Chicau (PT/NL)</a></li>
+              <li><a href="kunstnikud/ulfsak.html">Johanna Ulfsak (EE)</a></li>
+              <li><a href="kunstnikud/sootrandmae.html">Kaisa Sööt (EE) & Koit Randmäe (EE)</a></li>
+              <li><a href="kunstnikud/leschelier.html">Marc Leschelier (FR)</a></li>
+              <li><a href="kunstnikud/ginckels.html">Pieterjan Ginckels (BE)</a></li>
+              <li><a href="kunstnikud/karro.html">Siim Karro (EE)</a></li>
+        </ul>
+      </div>
+      <div id="writers-menu" class="dropdown-menu">
+          <ul>
+              <li><a href="kirjutajad/vetik.html">Anne Vetik</a></li>
+              <li><a href="kirjutajad/kaljo.html">Hanna Laura Kaljo</a></li>
+              <li><a href="kirjutajad/hoffmann.html">Joanna Hoffmann</a></li>
+              <li><a href="kirjutajad/kaunissaare.html">Laur Kaunissaare</a></li>
+              <li><a href="kirjutajad/maasik.html">Magdaleena Maasik</a></li>
+              <li><a href="kirjutajad/sade.html">Margit Säde</a></li>
+              <li><a href="kirjutajad/luiga.html">Maria Helena Luiga</a></li>
+              <li><a href="kirjutajad/esko.html">Marten Esko</a></li>
+              <li><a href="kirjutajad/k.html">Vitamiin K</a></li>
+              <li><a href="kirjutajad/draaistel.html">Bogie Draaistel</a></li>
+          </ul>
         </div>
-        <div class="body-frame">
-          <div class="wrapper">
-              <div class="article">
-                  <h1>KOOPIA</h1>
-                <div class="body-text">
-                    <p>[Kuraatoritekst EST] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius ex sed faucibus consectetur. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque nec est malesuada, pellentesque erat vel, malesuada enim. Duis sollicitudin sem quam, ac lobortis elit sagittis id. Pellentesque vitae imperdiet purus. Aenean pellentesque massa et neque feugiat ultricies. Morbi mollis nec nunc quis faucibus. Quisque ut risus eget massa finibus maximus. Nulla facilisi. Integer pharetra enim at leo facilisis tincidunt.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin suscipit ligula ut condimentum. Nulla aliquet,quam sed maximus molestie, sapien nunc congue augue, ac.</p>
+    </nav>
+    <main class="wrapper">
+        <img class="banner" src="img/artishok.png">
+        <div class="inverted">
+            <article class="article">
+                <h1>KOOPIA</h1>
+                <p>18. novembrist kuni 6. detsembrini leiab aset 7. Artishoki biennaal, kus üht uut
+                teost esitlevad 10 kunstnikku ning kõigile 10 teosele kirjutavad kommentaari
+                10 kirjutajat. 10 järjestikusel õhtul, 18. kuni 27. novembrini, toimuvad teoste
+                esmaesitlused eri paikades Tallinna linnaruumis ning 27. novembril
+                avatakse ühisnäitus Kai kunstikeskuses, mida saab külastada kuni 6.
+                detsembrini.</p>
+                <p>Laura Linsi ja Roland Reemaa kureeritud 7. Artishoki biennaali pealkiri
+                on “KOOPIA”. Kuraatorite eesmärgiks on innovatiivsuse iha kõrval
+                taaselustada arutelu eeskuju võtmisest, matkimisest, jäljendamisest ja
+                kopeerimisest. “Kas ülistades originaalsust ja unikaalsust, pole mitte
+                ebaõiglaselt kõrvale jäetud järeletegemise potentsiaal?” küsivad kuraatorid. </p>
+                <p>Kordused, paljusus, eeskujudest lähtumine, kaja ja peegeldused, satiir ning
+                imitatsioon – kõigi biennaalil osalevate kunstnike varasem looming puudutab
+                mõnel viisil töötamist millegagi, mis ei kuulu ainult neile, mille kinnismõte pole
+                originaalsus või mis ongi mõeldud paljundamiseks. Artishoki biennaali raames
+                esitati neile sellest lähtuvalt väljakutse uue teose loomiseks.</p>
+                <p>Artishoki biennaali formaadile omaselt on kümne kunstniku uutest teostest
+                kutsutud kirjutama kümme kirjutajat. Neist igaühel on ülesanne kirjutada
+                kommentaar kõigile esitletavatele teostele. Käesoleva aasta jooksul on
+                kirjutajate ja kunstnike vahel toimunud nii digitaalseid kui ka füüsilisi
+                kokkusaamisi ning stuudiokülastusi, et arutada ühiselt kunstnike
+                loomeprotsessi ning valmivate teoste üle. Artishoki tekstid on kirjutatud nende
+                kohtumiste põhjal enne teoste lõplikku valmimist. Teoste kohta käivad
+                kirjutised, mis sel aastal varieeruvad dialoogivormis aruteludest
+                ulmekirjanduslike lugudeni, avalikustatakse teoste esmaesitlustel.</p>
+                <p>“KOOPIA” eesmärgiks on järele proovida ja mõtestada töötamist millegagi,
+                mis ei kuulu meile, mängides mõttega, et miski ei kuulu niikuinii mitte kellelegi
+                ning kõik on juba varem tehtud, palju kordi. Kuid iga hetk saab mingis mõttes
+                olla uus ja ainukordne, saab olla uueks loodud. Arhitektidest kuraatorid toovad
+                siinkohal Artishoki biennaali võrrandisse juurde veel ühe mõõtme – ruumi. Iga
+                teost esitletakse üheõhtuse sündmusena talle eriomases paigas ning vormis
+                10 päeva vältaval avamisürituste maratonil. Näiteks viib Pieterjan Ginckelsi
+                karikatuurne “No Bull andmekeskus” Artishoki T1 Kaubanduskeskusesse,
+                Anna Mari Liivrandi sepistatud skulptuuride seeria “Okkaline meelitus
+                väljalt”jalutuskäigule Tallinna vanalinnas ning Johanna Ulfsaki
+                suuremõõtmeline käsitsi maalitud ning kootud kangas “Pehmed
+                koopiad” otse võrkpalliplatsile.</p>
+                <p>Artishoki biennaal on toimunud alates 2008. aastast ning seda defineerib
+                eksperimentaalne näituseformaat, mis ühendab jagatud platvormil kunstnikke
+                ja kirjutajaid ning katsetab nende omavaheliste suhetega. Artishok on
+                institutsioonidest sõltumatu kollektiiv, kus eelmiste näituste kuraatorid valivad
+                uued korraldajad, kelle eestvedamisel organiseeritakse 10-päevane
+                avamisürituste maraton ning leitakse formaadile kohased asukohad.</p>
+            </article>
+
+            <article class="article eng">
+                <h1>COPY</h1>
+                <p>The 7th Artishok Biennial COPY will take place from November 18th to
+                  December 6th, 2020. 10 artists will be presenting new works, and for each
+                  artwork 10 writers have written accompanying texts. During 10 consecutive
+                  days from November 18th to November 27th, each artwork will be premiered
+                  at a specifically-chosen location in Tallinn. A group show that brings all the
+                  works together will open at Kai Art Center on November 27th and will remain
+                  open until December 6th.</p>
+                  <p>The curators of the 7th Artishok Biennial are Laura Linsi and Roland Reemaa.
+                  Amid today&#39;s compulsive yearning for innovation, the curators’ aim is to revive
+                  discussions on imitation, simulation and copying. &quot;Could it be that blinded by
+                  originality and uniqueness, we have unjustly left aside the potential that lies in
+                  copying?&quot; ask the curators.</p>
+                  <p>Repetition and references, echoing and mirroring, satire and imitation - in one
+                  way or another, the body of work of all the participating artists relates to
+                  working with something that doesn’t belong to them, something that is not
+                  obsessed with originality, or something that is intended to be duplicated. With
+                  this in mind, the artists were challenged to create new pieces for COPY.</p>
+                  <p>Following the biennial’s pre-established format, ten writers were invited to
+                  write about the emerging artworks. Each of them was tasked with writing a
+                  commentary for each of the works in production. Over this year, the writers
+                  and artists met digitally as well as physically, and organised studio visits to
+                  discuss the artists’ creative processes and the emerging artworks. The 100
+                  texts were written based on these meetings and discussions ahead of the
+                  finalisation of the artworks. Varying from written dialogues to short sci-fi
+                  stories, they will be presented alongside the artworks.</p>
+                  <p>COPY muses about and tests the concept of working with something which
+                  does not belong to us in the context where nothing really belongs to anyone
+                  anyway and everything has already been done before, many times. Yet every
+                  moment can, in some way, be novel and singular, can be made anew. The
+                  curators introduce a spatial dimension to the matrix of the biennial. Each of
+                  the new artworks will be presented in a specific place, form and context at a
+                  one-night-only event during a 10-day marathon of premieres. Pieterjan
+                  Ginckels’ satirical performance No Bull Data Centre, for example, will take us
+                  to the T1 Mall of Tallinn, Anna Mari Liivrand’s forged sculpture series invites
+                  us for a walk in Tallinn’s Old Town and Johanna Ulfsak’s large-scale hand-
+                  painted and hand-woven textile Soft Copies puts us onto a volleyball court.</p>
+                  <p>Artishok Biennial has taken place since 2008. It is defined by an experimental
+                  exhibition format which connects art writers and artists on a shared platform
+                  and challenges their relationship during the working process. Artishok is an
+                  independent and informal collective, where the biennials’ previous curators
+                  select their successors for the following edition.</p>
+            </article>
+            <div class="padder">
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/w15oWDh02K4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
-              </div>
             </div>
         </div>
-          <div class="wrapper">
-              <div class="article">
-                <div class="big-title">
-                    <h1>KOOPIA</h1>
-                </div>
-                <div class="body-text">
-                    <p>[Kuraatoritekst EST] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius ex sed faucibus consectetur. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque nec est malesuada, pellentesque erat vel, malesuada enim. Duis sollicitudin sem quam, ac lobortis elit sagittis id. Pellentesque vitae imperdiet purus. Aenean pellentesque massa et neque feugiat ultricies. Morbi mollis nec nunc quis faucibus. Quisque ut risus eget massa finibus maximus. Nulla facilisi. Integer pharetra enim at leo facilisis tincidunt.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin suscipit ligula ut condimentum. Nulla aliquet,quam sed maximus molestie, sapien nunc congue augue, ac.</p>
-                </div>
-              </div>
-            </div>
+        <div class="columns">
+          <article class="column left">
+            <h2>Kunstnikud</h2>
+            <h2>Artists</h2>
+            <ul>
+              <li><a href="kunstnikud/pajuvali.html">Ann Pajuväli (EE)</a></li>
+              <li><a href="kunstnikud/vaiklakula.html">Ann Mirjam Vaikla (EE) & Szymon Kula (PL/FR)</a></li>
+              <li><a href="kunstnikud/liivrand.html">Anna Mari Liivrand (EE)</a></li>
+              <li><a href="kunstnikud/kaselaan.html">Jass Kaselaan (EE)</a></li>
+              <li><a href="kunstnikud/chicau.html">Joana Chicau (PT/NL)</a></li>
+              <li><a href="kunstnikud/ulfsak.html">Johanna Ulfsak (EE)</a></li>
+              <li><a href="kunstnikud/sootrandmae.html">Kaisa Sööt (EE) & Koit Randmäe (EE)</a></li>
+              <li><a href="kunstnikud/leschelier.html">Marc Leschelier (FR)</a></li>
+              <li><a href="kunstnikud/ginckels.html">Pieterjan Ginckels (BE)</a></li>
+              <li><a href="kunstnikud/karro.html">Siim Karro (EE)</a></li>
+            </ul>
+          </article>
+          <article class="column right">
+            <h2>Kirjutajad</h2>
+            <h2>Writers</h2>
+            <ul>
+              <li><a href="kirjutajad/vetik.html">Anne Vetik</a></li>
+              <li><a href="kirjutajad/kaljo.html">Hanna Laura Kaljo</a></li>
+              <li><a href="kirjutajad/hoffmann.html">Joanna Hoffmann</a></li>
+              <li><a href="kirjutajad/kaunissaare.html">Laur Kaunissaare</a></li>
+              <li><a href="kirjutajad/maasik.html">Magdaleena Maasik</a></li>
+              <li><a href="kirjutajad/sade.html">Margit Säde</a></li>
+              <li><a href="kirjutajad/luiga.html">Maria Helena Luiga</a></li>
+              <li><a href="kirjutajad/esko.html">Marten Esko</a></li>
+              <li><a href="kirjutajad/k.html">Vitamiin K</a></li>
+              <li><a href="kirjutajad/draaistel.html">Bogie Draaistel</a></li>
+            </ul>
+          </article>
         </div>
-  </body>
+          <img class="map" src="img/kaart.png" alt="artishoki-kaart">
+        <div class="article">
+          <h2>Kuraatorid / Curators</h2>
+          <p>Laura Linsi & Roland Reemaa</p>
+          <h2>Graafiline disainer / Graphic&nbsp;designer</h2>
+          <p>Brit Pavelson</p>
+          <h2>Dokumentatsioon / Documentation</h2>
+          <p>Gert Põrk & Joosep Ehasalu</p>
+          <h2>Näituse toimkond / Exhibition&nbsp;team</h2>
+          <p>Kadri Laas-Lepasepp, Kadi-Ell Tähiste, Triin Metsla</p>
+          <h2>Tõlked / Translations</h2>
+          <p>Martin Rünk, Elnara Taidre, Kristofer Rikken, Tanja Muravskaja, Laura Linsi, Sandra Kosorotova, Maria Vassiljeva</p>
+          <h2>Näituse installatsioon&nbsp;/ Exhibition&nbsp;Installation</h2>
+          <p>Tehniline Direktor (Tõnu Narro, Mihkel Lember)</p>
+          <h2>Veebiarendus / Web&nbsp;development</h2>
+          <p>Eva Rank</p>
+          <h2>Näitust toetavad / Supporters</h2>
+          <p>Eesti Arhitektide Liit, Prantsuse Instituut Eestis</p>
+        </div>
+        <div class="article">
+          <h2>Kajastus&nbsp;/ Media&nbsp;coverage</h2>
+          <a href="#" class="media">Link1</a>
+          <a href="#" class="media">Link2</a>
+          <a href="#" class="media">Link3</a>
+          <a href="#" class="media">Link4</a>
+        </div>
+    </main>
+    <script src="js/nav.js"></script>
+</body>
+
 </html>
